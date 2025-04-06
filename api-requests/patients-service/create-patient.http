@@ -1,0 +1,13 @@
+### POST patient at /patients endpoint
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+    "name": "John Kafka",
+    "email": "kafka.test11@gmail.com",
+    "address": "address124",
+    "dateOfBirth": "1997-10-10",
+    "registeredDate": "2025-04-03"
+}
+
+###

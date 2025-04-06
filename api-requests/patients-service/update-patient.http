@@ -1,0 +1,12 @@
+### UPDATE patient at /patients endpoint
+PUT http://localhost:4000/patients/c9d0e1f2-a3b4-5678-c9d0-e1f2a3b45678
+Content-Type: application/json
+
+{
+  "name": "John Doe3",
+  "email":  "test_update@gmail.com",
+  "address": "address125",
+  "dateOfBirth": "1996-10-10"
+}
+
+###
