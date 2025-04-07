@@ -24,7 +24,7 @@ public class AuthController {
         Optional<String> tokenOptional = authService.authenticate(loginRequestDTO);
 
         if(tokenOptional.isEmpty()){
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
         }
 
         String token = tokenOptional.get();
