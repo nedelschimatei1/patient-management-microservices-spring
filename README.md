@@ -118,9 +118,3 @@ Acts as the entry point to all services:
 4. Client includes token in subsequent requests
 5. API Gateway validates token with Auth Service
 6. Request proceeds to appropriate service if token is valid
-
-## DevOps Considerations
-- Containerized deployment for all services
-- Infrastructure as code for AWS deployment
-- LocalStack for local AWS testing
-- Monitoring and logging infrastructure
